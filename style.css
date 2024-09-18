@@ -1,0 +1,73 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #123b56;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #20dbd8;
+}
+
+#login{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.name input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.email input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    color: #000000;
+}
+
+.senha input{
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.entrar input{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: #000000;
+}
+
+input::placeholder{
+    color: #4f4848;
+}
+
+h1{
+    color: #ffff;
+}
+
+.caixa{
+    margin-top: 65px;
+}
+
+input:focus{
+    outline: none;
+}
